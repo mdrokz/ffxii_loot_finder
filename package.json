@@ -1,0 +1,12 @@
+{
+  "name": "ffxii_loot_finder",
+  "version": "1.0.0",
+  "description": "A loot finder for Final Fantasy XII ",
+  "main": "index.js",
+  "repository": "https://github.com/mdrokz/ffxii_loot_finder",
+  "author": "mdrokz",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.1.0"
+  }
+}
