@@ -5,8 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/mdrokz/ffxii_loot_finder",
   "author": "mdrokz",
-  "license": "MIT",
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "tsc index.ts && yarn build_scraper_script",
+    "build_scraper_script": "tsc scrape.ts --lib DOM,DOM.Iterable,ES2019 --downlevelIteration"
+  },
   "dependencies": {
     "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
   }
 }
